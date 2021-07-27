@@ -1,0 +1,9 @@
+green g r 'i n
+cold k 'o U l d
+black b l '{ k
+grey g r 'e I
+tea t 'i
+earl '3 l
+lukewarm l 'u k w 'O r m
+hot h 'A t
+<unk> SPN

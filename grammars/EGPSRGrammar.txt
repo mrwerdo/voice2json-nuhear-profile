@@ -1,0 +1,383 @@
+; grammar name GPSR Grammar
+; grammar tier High
+
+
+$Main      = $task                                                  => %task
+$Main      = $polite $task                                          => %task
+$Main      = $task $please                                          => %task
+
+
+# Tasks
+####################################################################
+; Bring from description
+$task      = $bringdesc                                             # done
+
+; Bring from/to storage
+$task      = $store                                                 # done
+
+; Bring to person matching description
+$task      = bring the {object 1} to the $person in the $room       => Bring(object: {object 1}, to: Person($person), in: $room)
+
+; Complex commands
+# The problem with these commands is that they repeat non-terminals and expect new wildcards to be substituted.
+# However if a wildcard has an id, then it will be the same across repeated non-terminals. (This allows different
+# non-terminals to refer to the same wildcard.) Another problem is that non-terminal node that should be substituted in
+# the alternative expression is now ambiguous because the same non-terminal has been repeated.
+$task      = $triple
+$task      = $singleI, $single, and $single                         => Sequence(%singleI, %single:0, %single:1)
+$task      = $singleI, $single, and $singleSp                       => Sequence(%singleI, %single, %singleSp)
+$task      = $single, $singleI, and $single                         => Sequence(%single:0, %singleI, %single:1)
+$task      = $single, $singleI, and $singleSp                       => Sequence(%single, %singleI, %singleSp)
+$task      = $single, $single, and $singleI                         => Sequence(%single:0, %single:1, %singleI)
+$task      = $single, $single, and $singleSpI                       => Sequence(%single:0, %single:1, %singleSpI)
+$task      = $doublelI, and $single                                 => Sequence(%doublelI, %single)
+$task      = $doublelI, and $singleSp                               => Sequence(%doublelI, %singleSp)
+$task      = $doublel, and $singleI                                 => Sequence(%doublel, %singleI)
+$task      = $doublel, and $singleSpI                               => Sequence(%doublel, %singleSpI)
+$task      = $singleI, $doubler                                     => Sequence(%singleI, %doubler)
+$task      = $single, $doublerI                                     => Sequence(%single, %doublerI)
+
+; Count objects
+$task      = $countobj                                              # done
+
+; Count people
+$task      = tell me how many $people there are in the $room        => CountPeople(filter: $people, in: $room)
+$task      = tell me how many $peoplege in the $room                => CountPeople(filter: $peoplege, in: $room)
+$task      = tell me how many $peopleR in the $room                 => CountPeople(filter: $peopleR, in: $room)
+$task      = tell me how many $ppl in the $room are $peopleDsc      => CountPeople(filter: $ppl are $peopleDsc, in: $room)
+
+; Describe person
+$task      = $descper                                               # done
+
+; Describe object
+$task      = $descobj                                               # done
+$task      = $retrieve                                              # done
+
+; Doors
+$task      = open the $door door                                    => Open(door: $door)
+$task      = close the $door door                                   => Close(door: $door)
+$door      = entrance | exit | corridor
+
+; Find object
+$task      = $vbfind the {sobject 1} in the {room 1}                => Find(object: {sobject 1}, in: {room 1})
+
+; Follow & guide
+$task      = $follow                                                # done
+$task      = $guide                                                 # done
+
+; Greet person matching description
+$task      = $greet the $person in the $room                        => Greet(Person($person, in: $room), method: $greet)
+
+; Host
+$task      = offer something to $eat_or_drink to all the $people in the $room   => Serve(to: $people, in: $room, somethingTo: $eat_or_drink)
+$task      = offer something to $eat_or_drink to all the $peopleg in the $room  => Serve(to: $peopleg, in: $room, somethingTo: $eat_or_drink)
+$eat_or_drink = eat | drink
+
+; Meet and greet a person
+$task      = $mgreet {void meta:There is only one person at {beacon 1}}         # done
+
+; Pouring
+$task      = $pour                                                              # done
+
+; Serving
+$task      = $serve                                                             # done
+
+# count
+####################################################################
+$countobj  = tell $repwho how many $countwhat are in the {placement 1}          => Count(object: $countwhat, at: {placement 1}, reportTo: speaker)
+$countobj  = count the $countwhat at the {placement 1} and $report              => Count(object: $countwhat, at: {placement 1}, reportTo: speaker)
+$countwhat = ({category} items) | $color ( {object} | {category} objects )
+$report    = $vbreport $repwho
+
+# Describe object
+####################################################################
+$descobj  = describe the objects in the {placement 1} to $repwho                => DescribeObjects(at: {placement 1}, to: $repwho)
+
+# Describe person
+####################################################################
+$descper  = tell me how the person $posture at the {beacon 1} looks like                    => Describe(person: $posture, at: {beacon 1}, to: speaker)
+$descper  = describe the person $posture at the {beacon 1} to me                            => Describe(person: $posture, at: {beacon 1}, to: speaker)
+$descper  = describe the person $posture at the {beacon 1} to the person at the {beacon 2}  => Describe(person: $posture, at: {beacon 1}, to: Person(at: {beacon 2})))
+$descper  = describe to me the person $posture at the {beacon 1}                            => Describe(person: $posture, at: {beacon 1}, to: speaker)
+
+# Bring from/to storage
+####################################################################
+$retrieve  = $vbdeliver me some {category 1} from the $storage                          => Bring(category: {category 1}, from: $storage, to speaker)
+$store     = put the {object 1} into the $storage                                       => Store(object: {object 1}, in: $storage)
+$store     = pick up a {category 1} from the {placement 1} and put it into the $storage => Store(category: {category 1}, from: {placement 1}, in: $storage)
+
+# Bring from description
+####################################################################
+$bringdesc = $vbdeliver me the $bdwhat from the {placement 1}                           => Bring(object: $bdwhat, from: {placement 1}, to: speaker)
+$bringdesc = take the $bdwhat from the {placement 1} to the {placement 2}               => Bring(object: $bdwhat, from: {placement 1}, to: {placement 2})
+$bringdesc = $vbdeliver me the {category 1} at the $rpos {placement 1}                  => Bring(category: {category 1}, from: Location($rpos, of: {placement 1}), to: speaker)
+$bringdesc = $vbdeliver me something in a $canpourin                                    => BringSomething(containedIn: $canpourin, to: speaker)
+$bringdesc = take the {category 1} at the {placement 1}'s $rpos to the {placement 2}    => Bring(category: {category 1}, from: Location($rpos, of: {placement 1}), to: {placement 2})
+$bdwhat    = $desc (object | {category})
+
+# Follow & guide
+####################################################################
+; Hard to find a person, easy to follow/guide
+$follow    = $vbfollow the $fgwhor                                                      => Follow(%fgwhor)
+$guide     = $vbguide the $fgwhor to the $guide_place                                   => Guide(%fgwhor, to: $guide_place)
+$guide_place = exit | {room 2}
+
+; Easy-to-find person, but hard to follow/guide
+$follow    = $vbfollow the $fgwho $fbriefing                                            => Follow(%fgwho)
+$guide     = $vbguide the $fgwho to the $guide_beacon $gbriefing                        => Guide(%fgwho, to: $guide_beacon)
+$guide_beacon = exit | {beacon 2}
+
+; Helpers
+$fgwho    = person at the {beacon 1}                                                    => Person(at: {beacon 1})
+$fgwhor   = $person in the $room                                                        => Person($person, in: $room)
+
+$fbriefing= {void meta: The Professional Walker must leave the arena and walk through a crowd of at least 5 people who must not let the robot pass. Once the robot has re-encountered its operator, the Professional Walker must lead the robot to {room 2} }
+$gbriefing= {void meta: The Professional Walker must, in any order: a) stop following the robot and head towards {beacon 3}, b) stop and wait there, and c) start walking very slow. }
+$gbriefing= {void meta: All doors between {beacon 1} and the target location are closed, as well as all paths to get there are blocked. }
+
+# Greet
+####################################################################
+$greet     = $vbgreet
+$greet     = ((say hello) | (introduce yourself)) to
+$mgreet    = $vbmeet {name 1} at the {beacon 1}, then $greet_or_find {pron} in the $room  => Meet(Person(named: {name 1}, at: {beacon 1}), movingTo: $room)
+$greet_or_find = greet | find
+
+# People
+####################################################################
+$peopleR   = $ppl are $peopleDsc
+$peopleDsc = $posture | {gesture}
+$peopleDsc = wearing $outfitss
+$peopleDsc = wearing $color
+
+$people    = $ppl
+$people    = $posture $ppl
+$peopleg   = $ppl {gesture}
+$peoplege  = $ppl are {gesture}
+$people    = $ppl wearing $outfitss
+$people    = $ppl dressed in $color
+
+$posture   = standing | sitting | lying down
+$ppl       = people | children | elders | men | women
+
+# Person
+####################################################################
+$person    = child
+$person    = $lpdesc (man | woman | person)
+$person    = (man | woman | person) {gesture}
+$person    = (man | woman | person) $rpdesc
+$lpdesc    = tallest | smallest | oldest | youngest | slimmest | fattest
+$rpdesc    = dressed in an $coloran $outfita
+$rpdesc    = dressed in a $colora $outfita
+$rpdesc    = wearing ($apparel | a $colora $outfita | an $coloran $outfita | ($colora | $coloran) $outfits)
+
+$colora    = blue | yellow | black | white | red | gray
+$coloran   = orange
+$color     = blue | yellow | black | white | red | gray | orange
+$outfits   = shoes | pants
+$outfita   = (T-shirt) | shirt | blouse | sweater | coat | jacket
+$outfitss  = shoes | pants | (T-shirts) | shirts | blouses | sweaters | coats | jackets
+$apparel   = a hat | glasses | a necklace | a tie | earrings
+
+# Pouring
+####################################################################
+$pour      = $vbdeliver me some $pourable in a $canpourin                           => Pour($pourable, in: $canpourin)
+$pour      = $vbpour some $pourable in a $canpourin                                 => Pour($pourable, in: $canpourin)
+
+# Serving
+####################################################################
+$serve      = $vbplace a $tableware on the {placement 1} and a $cutlery $servewhere => SetTheTable(using: $tableware, on: {placement 1}, place: $cutlery, at: $servewhere)
+$servewhere = ( on | in ) it
+$servewhere = on its (left | right)
+
+# What to say
+####################################################################
+$whattosay = something about yourself
+$whattosay = the time
+$whattosay = what day is (today | tomorrow)
+$whattosay = your team's (name | country | affiliation)
+$whattosay = the day of the (week | month)
+$whattosay = whether you dream or not on electric sheep
+$whattosay = a joke
+
+$whattosayMeta = {void meta: When asked, reply to the robot: "something about yourself"}
+$whattosayMeta = {void meta: When asked, reply to the robot: "the time"}
+$whattosayMeta = {void meta: When asked, reply to the robot: "what day is today"}
+$whattosayMeta = {void meta: When asked, reply to the robot: "what day is tomorrow"}
+$whattosayMeta = {void meta: When asked, reply to the robot: "your team's name"}
+$whattosayMeta = {void meta: When asked, reply to the robot: "your team's country"}
+$whattosayMeta = {void meta: When asked, reply to the robot: "your team's affiliation"}
+$whattosayMeta = {void meta: When asked, reply to the robot: "the day of the week"}
+$whattosayMeta = {void meta: When asked, reply to the robot: "the day of the month"}
+$whattosayMeta = {void meta: When asked, reply to the robot: "whether you dream or not on electric sheep"}
+$whattosayMeta = {void meta: When asked, reply to the robot: "a joke"}
+
+####################################################################
+#
+# COMPLEX COMMANDS
+#
+####################################################################
+
+# Triple task commands
+####################################################################
+$triple   = $findordI, and $deliver                                 => Bring(%findordI, to: %deliver)
+$triple   = $findordI, and $place                                   => Bring(%findordI, to: %place)
+$triple   = $findord, and $placeI                                   => Bring(%findord, to: %placeI)
+$triple   = $findord, and $deliverI                                 => Bring(%findord, to: %deliverI)
+$triple   = $findpdI, and $guideS                                   => Guide(%findpdI, to: $guideS:0$guideS_place)
+$triple   = $findpd, and $guideI                                    => Guide(%findpd)
+$triple   = $findprdI, and $guideS                                  => Guide(%findprdI, to: $guideS:0$guideS_place)
+$triple   = $findprdI, and $followS                                 => Follow(%findprdI)
+$triple   = $findprd, and $guideI                                   => Guide(%findprd)
+
+# Double task commands
+####################################################################
+; go get it
+$doubler  = $take, and $place                                       => Bring(%take, to: %place)
+$doubler  = $take, and $deliver                                     => Bring(%take, to: %deliver)
+$doublel  = $take, $place                                           => Bring(%take, to: %place)
+$doublel  = $take, $deliver                                         => Bring(%take, to: %deliver)
+$doublerI = $take, and $placeI                                      => Bring(%take, to: %placeI)
+$doublerI = $take, and $deliverI                                    => Bring(%take, to: %deliverI)
+$doublerI = $takeI, and $place                                      => Bring(%takeI, to: %place)
+$doublerI = $takeI, and $deliver                                    => Bring(%takeI, to: %deliver)
+$doublelI = $take, $placeI                                          => Bring(%take, to: %placeI)
+$doublelI = $take, $deliverI                                        => Bring(%take, to: %deliverI)
+$doublelI = $takeI, $place                                          => Bring(%takeI, to: %place)
+$doublelI = $takeI, $deliver                                        => Bring(%takeI, to: %deliver)
+
+;find person or object
+$doublel  = $findord                                                => Find(%findord)
+$doublel  = $findprd                                                => Find(%findprd)
+$doublelI = $findordI                                               => Find(%findordI)
+$doublelI = $findprdI                                               => Find(%findprdI)
+
+; find and follow
+$doubler  = $findprs, and $followS                                  => Follow(%findprs)
+$doublel  = $findprs, $followS                                      => Follow(%findprs)
+$doublerI = $findprsI, and $followS                                 => Follow(%findprsI)
+$doublelI = $findprsI, $followS                                     => Follow(%findprsI)
+
+; find and guide
+$doubler  = $findps, and $guideS                                    => Guide(%findps)
+$doublel  = $findps, $guideS                                        => Guide(%findps)
+$doublerI = $findps, and $guideI                                    => Guide(%findps)
+$doublerI = $findpsI, and $guideS                                   => Guide(%findpsI)
+$doublelI = $findps, $guideI                                        => Guide(%findps)
+$doublelI = $findpsI, $guideS                                       => Guide(%findpsI)
+
+# Single task commands
+####################################################################
+$single   = $findps                                                     => Find(%findps)
+$single   = $findprs                                                    => Find(%findprs)
+$single   = $findors                                                    => Find(%findors)
+$single   = $take                                                       => Take(%take)
+$single   = $mvobj                                                      # done
+$singleSp = $vbspeak $whattosay                                         => Speak($whattosay)
+$singleSp = answer a {question}                                         => Answer(question: {question})
+
+$singleI  = $findpsI                                                    => Find(%findpsI)
+$singleI  = $findprsI                                                   => Find(%findprsI)
+$singleI  = $findorsI                                                   # done
+$singleI  = $takeI                                                      => Take(%takeI)
+$singleI  = $mvobjI                                                     $ done
+$singleSpI= (speak | (say something)) $whattosayMeta                    => Speak()
+
+# Tasks
+####################################################################
+; Find object in room
+$findord  = $vbgor to the {room 1}, $vbfind the {object 1}                              => object: {object 1}, in: {room 1}
+$findors  = $vbfind a {object 1} in the {room 1}                                        => Find(object: {object 1}, in: {room 1})
+$findordI = $vbgor to the {room 1}, $vbfind the {object? 1}                             => object: {object 1}, in: {room 1}
+$findorsI = $vbfind (a | the) {object 1 meta: Robot must place it on the {placement 1}} => Find(object: {object 1})
+
+; Take an object
+$take     = $vbtake the {aobject 1} from the {placement 1}                                  => object: {aobject 1}, from: {placement 1}
+$takeI    = $vbtake the {aobject? 1 meta: Place to } from the {placement 1}                 => object: {aobject 1}, from: {placement 1}
+$takeI    = $vbtake the {aobject 1 meta: Robot will find it on the {placement 1}}           => object: {aobject 1}, from: {placement 1}
+
+; Place an object
+$place    = $vbplace it on the {placement 1}                                                => {placement 1}
+$placeI   = $vbplace it to the {placement? 1}                                               => {placement 1}
+
+;move object to target
+$mvobj    = $vbplace {object 1} on the {placement 1}                                                                    => Bring(object: {object 1}, on: {placement 1})
+$mvobjI   = $vbplace the {object 1} in the {placement? 1}                                                               => Bring(object: {object 1}, in: {placement 1}))
+$mvobjI   = $vbplace a {object? 1 meta: place 3 objects of the same category at {placement 1}} on the {placement 1}     => Bring(object: {object 1}, on: {placement 1})
+
+; Deliver an object
+$deliver  = $take to the {placement 2}                                                      => {placement 2}
+$deliver  = $takefrom to the {placement 2}                                                  => {placement 2}
+$deliver  = $vbdeliver it to me                                                             => speaker
+$deliver  = $vbdeliver it to {name 1} at the {beacon 1}                                     => Person({name 1}, at: {beacon 1})
+$deliverI = $vbdeliver it to {name 1 meta: {pron sub} is (sitting | standing | lying | waving ) at the {beacon}} => Person({name 1})
+
+; Find people in location
+$findpd   = $vbgopl to the {beacon 1}, $vbfind {name 1}                                                                                         => Person({name 1}, at: {beacon 1})
+$findps   = $vbfind {name 1} at the {beacon 1}                                                                                                  => Person({name 1}, at: {beacon 1})
+$findpdI  = $vbgopl to the {beacon 1}, $vbfind {name 1 meta: {pron sub} is (sitting | standing | lying | waving ). Place three people there}    => Person({name 1}, at: {beacon 1})
+$findpsI  = $vbfind {name 1 meta: {pron sub} is (sitting | standing | lying | waving ) at the {beacon}}                                         => Person({name 1})
+
+; Find people in room
+$findprd  = $vbgor to the {room 1}, $vbfind {name 1}                                                                                            => Person({name 1}, in: {room 1})
+$findprs  = $vbfind {name 1} in the {room 1}                                                                                                    => Person({name 1}, in: {room 1})
+$findprdI = $vbgor to the {room 1}, $vbfind {name 1 meta: {pron sub} is (sitting | standing | waving ). Place three people in the room}         => Person({name 1}, in: {room 1})
+$findprsI = $vbfind {name 1 meta: {pron sub} is (sitting | standing | waving ) at the {room}}                                                   => Person({name 1})
+
+; Follow people
+$followS  = $vbfollow {pron}
+
+; Guide people
+$guideS   = $vbguide {pron} to the $guideS_place
+$guideI   = escort {pron} {void meta: Escort {pron} to the $guideS_place}
+$guideS_place = {room 1} | {beacon 1} | exit
+
+####################################################################
+#
+# GENERAL RULES
+#
+####################################################################
+
+# Macros
+####################################################################
+$canpourin = {object where canPourIn=true}
+$pourable  = {object where canPour=true}
+$cereal    = {object where Category="food" canPour=true}
+$snack     = {object where Category="snacks"}
+$fruit     = {object where fruit=true}
+$drink     = {object where Category="drinks"}
+$storage   = microwave | fridge | oven | {object special where canPlaceIn=true} on the {placement}
+$tableware = {object where Category="tableware"}
+$cutlery   = {object where Category="cutlery"}
+$rpos      = left | right | center | middle bottom | top
+$desc      = $color | biggest | smallest | tallest | (left-most) | (right-most)
+$color     = blue | yellow | black | white | red | orange | gray
+$repwho    = me
+$room      = {room 1 meta: At least three people must be here}
+
+# Polite
+####################################################################
+$polite = Please
+$polite = Could you
+$polite = Robot please
+$polite = Could you please
+$please = please
+
+# Verbs
+####################################################################
+$vbdeliver = bring | deliver to | give | hand
+$vbfind    = find | locate | spot | pinpoint | look for
+$vbfollow  = follow | ((come | go) (behind | after)) | accompany
+$vbgopl    = go | navigate
+$vbgor     = $vbgopl | enter
+$vbgreet   = greet | salute | handshake
+$vbguide   = guide | escort | take | lead | accompany | conduct
+$vbmeet    = meet | contact | (get to know) | (get acquainted with)
+$vbplace   = put | place | leave | set
+$vbpour    = pour | serve
+$vbreport  = inform | report to
+$vbspeak   = tell | say
+$vbtake    = get | grasp | take | retrieve | pick up
+
+
+
+

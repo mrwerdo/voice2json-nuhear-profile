@@ -1,0 +1,8 @@
+tea
+earl
+green
+black
+grey
+hot
+lukewarm
+cold

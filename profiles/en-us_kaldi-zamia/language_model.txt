@@ -1,0 +1,62 @@
+
+\data\
+ngram 1=10
+ngram 2=17
+ngram 3=22
+
+\1-grams:
+-99	<s>	-1
+-0.6368221	</s>
+-0.6368221	tea	-0.60206
+-1.113943	earl	-0.60206
+-1.113943	green	-0.3010299
+-1.113943	black	-0.3010299
+-1.113943	grey	-0.3010299
+-1.113943	hot	-0.60206
+-1.113943	lukewarm	-0.60206
+-1.113943	cold	-0.60206
+
+\2-grams:
+-0.03476211	<s> tea	-0.6020603
+-0.5698753	tea earl	-0.60206
+-0.5698753	tea green	-0.3010301
+-0.5698753	tea black	-0.3010301
+-0.1139434	earl grey	-0.3010301
+-0.6879746	green hot	-0.30103
+-0.6879746	green lukewarm	-0.30103
+-0.6879746	green cold	-0.30103
+-0.6879746	black hot	-0.30103
+-0.6879746	black lukewarm	-0.30103
+-0.6879746	black cold	-0.30103
+-0.6879746	grey hot	-0.30103
+-0.6879746	grey lukewarm	-0.30103
+-0.6879746	grey cold	-0.30103
+-0.09275405	hot </s>
+-0.09275405	lukewarm </s>
+-0.09275405	cold </s>
+
+\3-grams:
+-0.4985194	<s> tea earl
+-0.4985194	<s> tea green
+-0.4985194	<s> tea black
+-0.02580726	tea earl grey
+-0.5698753	tea green hot
+-0.5698753	tea green lukewarm
+-0.5698753	tea green cold
+-0.5698753	tea black hot
+-0.5698753	tea black lukewarm
+-0.5698753	tea black cold
+-0.5698753	earl grey hot
+-0.5698753	earl grey lukewarm
+-0.5698753	earl grey cold
+-0.04390549	green hot </s>
+-0.04390549	green lukewarm </s>
+-0.04390549	green cold </s>
+-0.04390549	black hot </s>
+-0.04390549	black lukewarm </s>
+-0.04390549	black cold </s>
+-0.04390549	grey hot </s>
+-0.04390549	grey lukewarm </s>
+-0.04390549	grey cold </s>
+
+\end\
