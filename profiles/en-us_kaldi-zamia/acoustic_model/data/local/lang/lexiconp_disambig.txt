@@ -1,0 +1,172 @@
+smallest	1.0	s_B m_I 'O_I l_I V_I s_I t_E
+pointing	1.0	p_B 'OI_I n_I t_I I_I N_E
+go	1.0	g_B 'o_I U_E
+thinnest	1.0	T_B 'I_I n_I I_I s_I t_E
+ambiguous	1.0	{_B m_I b_I 'I_I g_I j_I u_I V_I s_E
+most	1.0	m_B 'o_I U_I s_I t_E
+beacon	1.0	b_B 'i_I k_I V_I n_E
+william	1.0	w_B 'I_I l_I j_I V_I m_E
+something	1.0	s_B 'V_I m_I T_I I_I N_E
+litter	1.0	l_B 'I_I t_I 3_E
+accompany	1.0	V_B k_I 'V_I m_I p_I V_I n_I i_E
+may	1.0	m_B 'e_I I_E
+how	1.0	h_B 'aU_E
+tomorrow	1.0	t_B V_I m_I 'A_I r_I o_I U_E
+women	1.0	w_B 'I_I m_I V_I n_E
+of	1.0	'V_B v_E
+clean	1.0	k_B l_I 'i_I n_E
+country	1.0	k_B 'V_I n_I t_I r_I i_E
+give	1.0	g_B 'I_I v_E
+lightest	1.0	l_B 'aI_I t_I V_I s_I t_E
+raising	1.0	r_B 'e_I I_I z_I I_I N_E
+junk	1.0	dZ_B 'V_I N_I k_E
+order	1.0	'O_B r_I d_I 3_E
+ask	1.0	'{_B s_I k_E
+bring	1.0	b_B r_I 'I_I N_E
+arm	1.0	'A_B r_I m_E
+three	1.0	T_B r_I 'i_E
+children	1.0	tS_B 'I_I l_I d_I r_I V_I n_E
+my	1.0	m_B 'aI_E
+garbage	1.0	g_B 'A_I r_I b_I I_I dZ_E
+uber	1.0	j_B 'u_I b_I 3_E
+say	1.0	s_B 'e_I I_E
+deliver	1.0	d_B I_I l_I 'I_I v_I 3_E
+week	1.0	w_B 'i_I k_E
+person	1.0	p_B '3_I s_I V_I n_E
+any	1.0	'E_B n_I i_E
+day	1.0	d_B 'e_I I_E
+biggest	1.0	b_B 'I_I g_I V_I s_I t_E
+bag	1.0	b_B '{_I g_E
+on	1.0	'A_B n_E
+find	1.0	f_B 'aI_I n_I d_E
+rear	1.0	r_B 'I_I r_E
+take	1.0	t_B 'e_I I_I k_E
+today	1.0	t_B V_I d_I 'e_I I_E
+affiliation	1.0	V_B f_I I_I l_I i_I 'e_I I_I S_I V_I n_E
+largest	1.0	l_B 'A_I r_I dZ_I V_I s_I t_E
+robin	1.0	r_B 'A_I b_I V_I n_E
+arrange	1.0	3_B 'e_I I_I n_I dZ_E
+for	1.0	f_B 'O_I r_E
+guide	1.0	g_B 'aI_I d_E
+female	1.0	f_B 'i_I m_I e_I I_I l_E
+objects	1.0	'A_B b_I dZ_I E_I k_I ts_E
+greet	1.0	g_B r_I 'i_I t_E
+james	1.0	dZ_B 'e_I I_I m_I z_E
+which	1.0	w_B 'I_I tS_E
+sitting	1.0	s_B 'I_I t_I I_I N_E
+at	1.0	'{_B t_E
+jennifer	1.0	dZ_B 'E_I n_I V_I f_I 3_E
+will	1.0	w_B 'I_I l_E
+baggage	1.0	b_B '{_I g_I V_I dZ_E
+leave	1.0	l_B 'i_I v_E
+tell	1.0	t_B 'E_I l_E
+drinks	1.0	d_B r_I 'I_I N_I k_I s_E
+up	1.0	'V_B p_E
+serve	1.0	s_B '3_I v_E
+to	1.0	t_B 'u_E
+the	1.0	D_B V_E
+out	1.0	'aU_B t_E
+grasp	1.0	g_B r_I '{_I s_I p_E
+lying	1.0	l_B 'aI_I I_I N_E
+what	1.0	w_B 'V_I t_E
+tray	1.0	t_B r_I 'e_I I_E
+linda	1.0	l_B 'I_I n_I d_I V_E
+back	1.0	b_B '{_I k_E
+trash	1.0	t_B r_I '{_I S_E
+door	1.0	d_B 'O_I r_E
+introduce	1.0	I_B n_I t_I r_I V_I d_I 'u_I s_E
+room	1.0	r_B 'u_I m_E
+john	1.0	dZ_B 'A_I n_E
+unknown	1.0	V_B n_I n_I 'o_I U_I n_E
+everyone	1.0	'E_B v_I r_I i_I w_I V_I n_E
+main	1.0	m_B 'e_I I_I n_E
+standing	1.0	s_B t_I '{_I n_I d_I I_I N_E
+men	1.0	m_B 'E_I n_E
+pose	1.0	p_B 'o_I U_I z_E
+are	1.0	'A_B r_E
+escort	1.0	E_B s_I k_I 'O_I r_I t_E
+lead	1.0	l_B 'E_I d_E
+all	1.0	'O_B l_E
+left	1.0	l_B 'E_I f_I t_E
+joke	1.0	dZ_B 'o_I U_I k_E
+waste	1.0	w_B 'e_I I_I s_I t_E
+girls	1.0	g_B '3_I l_I z_E
+there	1.0	D_B 'E_I r_E #1
+can	1.0	k_B '{_I n_E
+boys	1.0	b_B 'OI_I z_E
+navigate	1.0	n_B '{_I v_I V_I g_I e_I I_I t_E
+debris	1.0	d_B V_I b_I r_I 'i_E
+tidy	1.0	t_B 'aI_I d_I i_E
+yourself	1.0	j_B 3_I s_I 'E_I l_I f_E
+cab	1.0	k_B '{_I b_E
+patricia	1.0	p_B V_I t_I r_I 'I_I S_I V_E
+alex	1.0	'{_B l_I V_I k_I s_E
+locate	1.0	l_B 'o_I U_I k_I e_I I_I t_E
+about	1.0	V_B b_I 'aU_I t_E
+pick	1.0	p_B 'I_I k_E
+behind	1.0	b_B I_I h_I 'aI_I n_I d_E
+distribute	1.0	d_B I_I s_I t_I r_I 'I_I b_I j_I u_I t_E
+suitcase	1.0	s_B 'u_I t_I k_I e_I I_I s_E
+down	1.0	d_B 'aU_I n_E
+valise	1.0	v_B V_I l_I 'i_I s_E
+taxi	1.0	t_B '{_I k_I s_I i_E
+meet	1.0	m_B 'i_I t_E
+their	1.0	D_B 'E_I r_E #2
+front	1.0	f_B r_I 'V_I n_I t_E
+charlie	1.0	tS_B 'A_I r_I l_I i_E
+face	1.0	f_B 'e_I I_I s_E
+trolley	1.0	t_B r_I 'A_I l_I i_E
+place	1.0	p_B l_I 'e_I I_I s_E
+question	1.0	k_B w_I 'E_I s_I tS_I V_I n_E
+it	1.0	'I_B t_E
+answer	1.0	'{_B n_I s_I 3_E
+snacks	1.0	s_B n_I '{_I k_I s_E
+bowl	1.0	b_B 'o_I U_I l_E
+placement	1.0	p_B l_I 'e_I I_I s_I m_I V_I n_I t_E
+many	1.0	m_B 'E_I n_I i_E
+name	1.0	n_B 'e_I I_I m_E
+follow	1.0	f_B 'A_I l_I o_I U_E
+francis	1.0	f_B r_I '{_I n_I s_I V_I s_E
+look	1.0	l_B 'U_I k_E
+category	1.0	k_B '{_I t_I V_I g_I O_I r_I i_E
+from	1.0	f_B r_I 'V_I m_E
+is	1.0	'I_B z_E
+month	1.0	m_B 'V_I n_I T_E
+entrance	1.0	'E_B n_I t_I r_I V_I n_I s_E
+a	1.0	V_S
+put	1.0	p_B 'U_I t_E
+in	1.0	I_B n_E
+and	1.0	V_B n_I d_E
+male	1.0	m_B 'e_I I_I l_E
+above	1.0	V_B b_I 'V_I v_E
+time	1.0	t_B 'aI_I m_E
+elizabeth	1.0	I_B l_I 'I_I z_I V_I b_I V_I T_E
+right	1.0	r_B 'aI_I t_E
+under	1.0	'V_B n_I d_I 3_E
+contact	1.0	k_B 'A_I n_I t_I {_I k_I t_E
+you	1.0	j_B 'u_E
+<unk>	1.0	SPN_S
+your	1.0	j_B 'O_I r_E
+mary	1.0	m_B 'E_I r_I i_E
+object	1.0	'A_B b_I dZ_I E_I k_I t_E
+people	1.0	p_B 'i_I p_I V_I l_E
+dump	1.0	d_B 'V_I m_I p_E
+cloth	1.0	k_B l_I 'O_I T_E
+elders	1.0	'E_B l_I d_I 3_I z_E
+me	1.0	m_B 'i_E
+provide	1.0	p_B r_I V_I v_I 'aI_I d_E
+michael	1.0	m_B 'aI_I k_I V_I l_E
+robert	1.0	r_B 'A_I b_I 3_I t_E
+gender	1.0	dZ_B 'E_I n_I d_I 3_E
+waving	1.0	w_B 'e_I I_I v_I I_I N_E
+heaviest	1.0	h_B 'E_I v_I i_I V_I s_I t_E
+get	1.0	g_B 'E_I t_E
+guests	1.0	g_B 'E_I s_I ts_E
+top	1.0	t_B 'A_I p_E
+skyler	1.0	s_B k_I 'aI_I l_I 3_E
+neaten	1.0	n_B 'i_I t_I V_I n_E
+kobject	1.0	k_B V_I b_I dZ_I 'E_I k_I t_E
+what''s	1.0	w_B 'V_I t_I V_I z_E
+pron	1.0	p_B r_I V_I n_E
+"team's"	1.0	t_B 'i_I m_I z_E
+nme	1.0	n_B m_E

@@ -1,0 +1,172 @@
+smallest s m 'O l V s t
+pointing p 'OI n t I N
+go g 'o U
+thinnest T 'I n I s t
+ambiguous { m b 'I g j u V s
+most m 'o U s t
+beacon b 'i k V n
+william w 'I l j V m
+something s 'V m T I N
+litter l 'I t 3
+accompany V k 'V m p V n i
+may m 'e I
+how h 'aU
+tomorrow t V m 'A r o U
+women w 'I m V n
+of 'V v
+clean k l 'i n
+country k 'V n t r i
+give g 'I v
+lightest l 'aI t V s t
+raising r 'e I z I N
+junk dZ 'V N k
+order 'O r d 3
+ask '{ s k
+bring b r 'I N
+arm 'A r m
+three T r 'i
+children tS 'I l d r V n
+my m 'aI
+garbage g 'A r b I dZ
+uber j 'u b 3
+say s 'e I
+deliver d I l 'I v 3
+week w 'i k
+person p '3 s V n
+any 'E n i
+day d 'e I
+biggest b 'I g V s t
+bag b '{ g
+on 'A n
+find f 'aI n d
+rear r 'I r
+take t 'e I k
+today t V d 'e I
+affiliation V f I l i 'e I S V n
+largest l 'A r dZ V s t
+robin r 'A b V n
+arrange 3 'e I n dZ
+for f 'O r
+guide g 'aI d
+female f 'i m e I l
+objects 'A b dZ E k ts
+greet g r 'i t
+james dZ 'e I m z
+which w 'I tS
+sitting s 'I t I N
+at '{ t
+jennifer dZ 'E n V f 3
+will w 'I l
+baggage b '{ g V dZ
+leave l 'i v
+tell t 'E l
+drinks d r 'I N k s
+up 'V p
+serve s '3 v
+to t 'u
+the D V
+out 'aU t
+grasp g r '{ s p
+lying l 'aI I N
+what w 'V t
+tray t r 'e I
+linda l 'I n d V
+back b '{ k
+trash t r '{ S
+door d 'O r
+introduce I n t r V d 'u s
+room r 'u m
+john dZ 'A n
+unknown V n n 'o U n
+everyone 'E v r i w V n
+main m 'e I n
+standing s t '{ n d I N
+men m 'E n
+pose p 'o U z
+are 'A r
+escort E s k 'O r t
+lead l 'E d
+all 'O l
+left l 'E f t
+joke dZ 'o U k
+waste w 'e I s t
+girls g '3 l z
+there D 'E r
+can k '{ n
+boys b 'OI z
+navigate n '{ v V g e I t
+debris d V b r 'i
+tidy t 'aI d i
+yourself j 3 s 'E l f
+cab k '{ b
+patricia p V t r 'I S V
+alex '{ l V k s
+locate l 'o U k e I t
+about V b 'aU t
+pick p 'I k
+behind b I h 'aI n d
+distribute d I s t r 'I b j u t
+suitcase s 'u t k e I s
+down d 'aU n
+valise v V l 'i s
+taxi t '{ k s i
+meet m 'i t
+their D 'E r
+front f r 'V n t
+charlie tS 'A r l i
+face f 'e I s
+trolley t r 'A l i
+place p l 'e I s
+question k w 'E s tS V n
+it 'I t
+answer '{ n s 3
+snacks s n '{ k s
+bowl b 'o U l
+placement p l 'e I s m V n t
+many m 'E n i
+name n 'e I m
+follow f 'A l o U
+francis f r '{ n s V s
+look l 'U k
+category k '{ t V g O r i
+from f r 'V m
+is 'I z
+month m 'V n T
+entrance 'E n t r V n s
+a V
+put p 'U t
+in I n
+and V n d
+male m 'e I l
+above V b 'V v
+time t 'aI m
+elizabeth I l 'I z V b V T
+right r 'aI t
+under 'V n d 3
+contact k 'A n t { k t
+you j 'u
+<unk> SPN
+your j 'O r
+mary m 'E r i
+object 'A b dZ E k t
+people p 'i p V l
+dump d 'V m p
+cloth k l 'O T
+elders 'E l d 3 z
+me m 'i
+provide p r V v 'aI d
+michael m 'aI k V l
+robert r 'A b 3 t
+gender dZ 'E n d 3
+waving w 'e I v I N
+heaviest h 'E v i V s t
+get g 'E t
+guests g 'E s ts
+top t 'A p
+skyler s k 'aI l 3
+neaten n 'i t V n
+kobject k V b dZ 'E k t
+what''s w 'V t V z
+pron p r V n
+"team's" t 'i m z
+nme n m

@@ -1,0 +1,172 @@
+smallest 1.0	s m 'O l V s t
+pointing 1.0	p 'OI n t I N
+go 1.0	g 'o U
+thinnest 1.0	T 'I n I s t
+ambiguous 1.0	{ m b 'I g j u V s
+most 1.0	m 'o U s t
+beacon 1.0	b 'i k V n
+william 1.0	w 'I l j V m
+something 1.0	s 'V m T I N
+litter 1.0	l 'I t 3
+accompany 1.0	V k 'V m p V n i
+may 1.0	m 'e I
+how 1.0	h 'aU
+tomorrow 1.0	t V m 'A r o U
+women 1.0	w 'I m V n
+of 1.0	'V v
+clean 1.0	k l 'i n
+country 1.0	k 'V n t r i
+give 1.0	g 'I v
+lightest 1.0	l 'aI t V s t
+raising 1.0	r 'e I z I N
+junk 1.0	dZ 'V N k
+order 1.0	'O r d 3
+ask 1.0	'{ s k
+bring 1.0	b r 'I N
+arm 1.0	'A r m
+three 1.0	T r 'i
+children 1.0	tS 'I l d r V n
+my 1.0	m 'aI
+garbage 1.0	g 'A r b I dZ
+uber 1.0	j 'u b 3
+say 1.0	s 'e I
+deliver 1.0	d I l 'I v 3
+week 1.0	w 'i k
+person 1.0	p '3 s V n
+any 1.0	'E n i
+day 1.0	d 'e I
+biggest 1.0	b 'I g V s t
+bag 1.0	b '{ g
+on 1.0	'A n
+find 1.0	f 'aI n d
+rear 1.0	r 'I r
+take 1.0	t 'e I k
+today 1.0	t V d 'e I
+affiliation 1.0	V f I l i 'e I S V n
+largest 1.0	l 'A r dZ V s t
+robin 1.0	r 'A b V n
+arrange 1.0	3 'e I n dZ
+for 1.0	f 'O r
+guide 1.0	g 'aI d
+female 1.0	f 'i m e I l
+objects 1.0	'A b dZ E k ts
+greet 1.0	g r 'i t
+james 1.0	dZ 'e I m z
+which 1.0	w 'I tS
+sitting 1.0	s 'I t I N
+at 1.0	'{ t
+jennifer 1.0	dZ 'E n V f 3
+will 1.0	w 'I l
+baggage 1.0	b '{ g V dZ
+leave 1.0	l 'i v
+tell 1.0	t 'E l
+drinks 1.0	d r 'I N k s
+up 1.0	'V p
+serve 1.0	s '3 v
+to 1.0	t 'u
+the 1.0	D V
+out 1.0	'aU t
+grasp 1.0	g r '{ s p
+lying 1.0	l 'aI I N
+what 1.0	w 'V t
+tray 1.0	t r 'e I
+linda 1.0	l 'I n d V
+back 1.0	b '{ k
+trash 1.0	t r '{ S
+door 1.0	d 'O r
+introduce 1.0	I n t r V d 'u s
+room 1.0	r 'u m
+john 1.0	dZ 'A n
+unknown 1.0	V n n 'o U n
+everyone 1.0	'E v r i w V n
+main 1.0	m 'e I n
+standing 1.0	s t '{ n d I N
+men 1.0	m 'E n
+pose 1.0	p 'o U z
+are 1.0	'A r
+escort 1.0	E s k 'O r t
+lead 1.0	l 'E d
+all 1.0	'O l
+left 1.0	l 'E f t
+joke 1.0	dZ 'o U k
+waste 1.0	w 'e I s t
+girls 1.0	g '3 l z
+there 1.0	D 'E r
+can 1.0	k '{ n
+boys 1.0	b 'OI z
+navigate 1.0	n '{ v V g e I t
+debris 1.0	d V b r 'i
+tidy 1.0	t 'aI d i
+yourself 1.0	j 3 s 'E l f
+cab 1.0	k '{ b
+patricia 1.0	p V t r 'I S V
+alex 1.0	'{ l V k s
+locate 1.0	l 'o U k e I t
+about 1.0	V b 'aU t
+pick 1.0	p 'I k
+behind 1.0	b I h 'aI n d
+distribute 1.0	d I s t r 'I b j u t
+suitcase 1.0	s 'u t k e I s
+down 1.0	d 'aU n
+valise 1.0	v V l 'i s
+taxi 1.0	t '{ k s i
+meet 1.0	m 'i t
+their 1.0	D 'E r
+front 1.0	f r 'V n t
+charlie 1.0	tS 'A r l i
+face 1.0	f 'e I s
+trolley 1.0	t r 'A l i
+place 1.0	p l 'e I s
+question 1.0	k w 'E s tS V n
+it 1.0	'I t
+answer 1.0	'{ n s 3
+snacks 1.0	s n '{ k s
+bowl 1.0	b 'o U l
+placement 1.0	p l 'e I s m V n t
+many 1.0	m 'E n i
+name 1.0	n 'e I m
+follow 1.0	f 'A l o U
+francis 1.0	f r '{ n s V s
+look 1.0	l 'U k
+category 1.0	k '{ t V g O r i
+from 1.0	f r 'V m
+is 1.0	'I z
+month 1.0	m 'V n T
+entrance 1.0	'E n t r V n s
+a 1.0	V
+put 1.0	p 'U t
+in 1.0	I n
+and 1.0	V n d
+male 1.0	m 'e I l
+above 1.0	V b 'V v
+time 1.0	t 'aI m
+elizabeth 1.0	I l 'I z V b V T
+right 1.0	r 'aI t
+under 1.0	'V n d 3
+contact 1.0	k 'A n t { k t
+you 1.0	j 'u
+<unk> 1.0	SPN
+your 1.0	j 'O r
+mary 1.0	m 'E r i
+object 1.0	'A b dZ E k t
+people 1.0	p 'i p V l
+dump 1.0	d 'V m p
+cloth 1.0	k l 'O T
+elders 1.0	'E l d 3 z
+me 1.0	m 'i
+provide 1.0	p r V v 'aI d
+michael 1.0	m 'aI k V l
+robert 1.0	r 'A b 3 t
+gender 1.0	dZ 'E n d 3
+waving 1.0	w 'e I v I N
+heaviest 1.0	h 'E v i V s t
+get 1.0	g 'E t
+guests 1.0	g 'E s ts
+top 1.0	t 'A p
+skyler 1.0	s k 'aI l 3
+neaten 1.0	n 'i t V n
+kobject 1.0	k V b dZ 'E k t
+what''s 1.0	w 'V t V z
+pron 1.0	p r V n
+"team's" 1.0	t 'i m z
+nme 1.0	n m
