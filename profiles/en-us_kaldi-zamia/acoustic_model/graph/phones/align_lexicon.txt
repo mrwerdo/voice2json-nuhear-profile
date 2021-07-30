@@ -1,173 +1,377 @@
-"team's" "team's" t_B 'i_I m_I z_E
 <eps> <eps> SIL
 <unk> <unk> SPN_S
 a a V_S
 about about V_B b_I 'aU_I t_E
 above above V_B b_I 'V_I v_E
+academy academy V_B k_I '{_I d_I V_I m_I i_E
 accompany accompany V_B k_I 'V_I m_I p_I V_I n_I i_E
 affiliation affiliation V_B f_I I_I l_I i_I 'e_I I_I S_I V_I n_E
+ai ai 'aI_S
+ai's ai's 'aI_B z_E
 alex alex '{_B l_I V_I k_I s_E
 all all 'O_B l_E
-ambiguous ambiguous {_B m_I b_I 'I_I g_I j_I u_I V_I s_E
+an an '{_B n_E
 and and V_B n_I d_E
+android android '{_B n_I d_I r_I OI_I d_E
 answer answer '{_B n_I s_I 3_E
-any any 'E_B n_I i_E
+apple apple '{_B p_I V_I l_E
 are are 'A_B r_E
 arm arm 'A_B r_I m_E
 arrange arrange 3_B 'e_I I_I n_I dZ_E
 ask ask '{_B s_I k_E
 at at '{_B t_E
+award award V_B w_I 'O_I r_I d_E
 back back b_B '{_I k_E
 bag bag b_B '{_I g_E
 baggage baggage b_B '{_I g_I V_I dZ_E
-beacon beacon b_B 'i_I k_I V_I n_E
+basket basket b_B '{_I s_I k_I V_I t_E
+be be b_B 'i_E
+bear bear b_B 'E_I r_E
+beatlemania beatlemania b_B 'i_I t_I V_I l_I V_I m_I 'e_I I_I n_I i_I V_E
+bed bed b_B 'E_I d_E
+bedroom bedroom b_B 'E_I d_I r_I u_I m_E
 behind behind b_B I_I h_I 'aI_I n_I d_E
+big big b_B 'I_I g_E
 biggest biggest b_B 'I_I g_I V_I s_I t_E
+blackberry blackberry b_B l_I '{_I k_I b_I E_I r_I i_E
+bookcase bookcase b_B 'U_I k_I k_I e_I I_I s_E
+bottleneck bottleneck b_B 'A_I t_I V_I l_I n_I E_I k_E
 bowl bowl b_B 'o_I U_I l_E
 boys boys b_B 'OI_I z_E
 bring bring b_B r_I 'I_I N_E
+bug bug b_B 'V_I g_E
+build build b_B 'I_I l_I d_E
+by by b_B 'aI_E
+c c s_B 'i_E
 cab cab k_B '{_I b_E
+called called k_B 'O_I l_I d_E
 can can k_B '{_I n_E
-category category k_B '{_I t_I V_I g_I O_I r_I i_E
+canada canada k_B '{_I n_I V_I d_I V_E
+canada's canada's k_B '{_I n_I V_I d_I V_I z_E
+canadian canadian k_B V_I n_I 'e_I I_I d_I i_I V_I n_E
+canadians canadians k_B V_I n_I 'e_I I_I d_I i_I V_I n_I z_E
+captcha captcha k_B '{_I p_I tS_I V_E
+cars cars k_B 'A_I r_I z_E
+cascade cascade k_B {_I s_I k_I 'e_I I_I d_E
+cereal cereal s_B 'I_I r_I i_I V_I l_E
 charlie charlie tS_B 'A_I r_I l_I i_E
+chatbot chatbot tS_B '{_I t_I b_I A_I t_E
 children children tS_B 'I_I l_I d_I r_I V_I n_E
+chips chips tS_B 'I_I p_I s_E
+chocolate chocolate tS_B 'O_I k_I l_I V_I t_E
 clean clean k_B l_I 'i_I n_E
+cleaning cleaning k_B l_I 'i_I n_I I_I N_E
 cloth cloth k_B l_I 'O_I T_E
+coin coin k_B 'OI_I n_E
+coined coined k_B 'OI_I n_I d_E
+coke coke k_B 'o_I U_I k_E
+comic comic k_B 'A_I m_I I_I k_E
+compiler compiler k_B V_I m_I p_I 'aI_I l_I 3_E
+computer computer k_B V_I m_I p_I j_I 'u_I t_I 3_E
+considered considered k_B V_I n_I s_I 'I_I d_I 3_I d_E
 contact contact k_B 'A_I n_I t_I {_I k_I t_E
+containers containers k_B V_I n_I t_I 'e_I I_I n_I 3_I z_E
+corridor corridor k_B 'O_I r_I V_I d_I 3_E
+couch couch k_B 'aU_I tS_E
+counter counter k_B 'aU_I n_I t_I 3_E
 country country k_B 'V_I n_I t_I r_I i_E
+crackers crackers k_B r_I '{_I k_I 3_I z_E
+created created k_B r_I i_I 'e_I I_I t_I V_I d_E
+cub cub k_B 'V_I b_E
+cup cup k_B 'V_I p_E
+cupboard cupboard k_B 'V_I b_I 3_I d_E
+cutlery cutlery k_B 'V_I t_I l_I 3_I i_E
 day day d_B 'e_I I_E
+de de d_B 'i_E
 debris debris d_B V_I b_I r_I 'i_E
 deliver deliver d_B I_I l_I 'I_I v_I 3_E
+desert desert d_B 'E_I z_I 3_I t_E
+desk desk d_B 'E_I s_I k_E
+developed developed d_B I_I v_I 'E_I l_I V_I p_I t_E
+dining dining d_B 'aI_I n_I I_I N_E
+dish dish d_B 'I_I S_E
+dishwasher dishwasher d_B 'I_I S_I w_I A_I S_I 3_E
+disk disk d_B 'I_I s_I k_E
 distribute distribute d_B I_I s_I t_I r_I 'I_I b_I j_I u_I t_E
+do do d_B 'u_E
+does does d_B 'V_I z_E
 door door d_B 'O_I r_E
 down down d_B 'aU_I n_E
+drink drink d_B r_I 'I_I N_I k_E
 drinks drinks d_B r_I 'I_I N_I k_I s_E
+drive drive d_B r_I 'aI_I v_E
 dump dump d_B 'V_I m_I p_E
 elders elders 'E_B l_I d_I 3_I z_E
 elizabeth elizabeth I_B l_I 'I_I z_I V_I b_I V_I T_E
+elon elon 'E_B l_I V_I n_E
+else else 'E_B l_I s_E
+end end 'E_B n_I d_E
+engineering engineering 'E_B n_I dZ_I V_I n_I 'I_I r_I I_I N_E
 entrance entrance 'E_B n_I t_I r_I V_I n_I s_E
 escort escort E_B s_I k_I 'O_I r_I t_E
 everyone everyone 'E_B v_I r_I i_I w_I V_I n_E
+exit exit 'E_B g_I z_I I_I t_E
+exported exported I_B k_I s_I p_I 'O_I r_I t_I V_I d_E
 face face f_B 'e_I I_I s_E
+famous famous f_B 'e_I I_I m_I V_I s_E
 female female f_B 'i_I m_I e_I I_I l_E
+fifteen fifteen f_B I_I f_I t_I 'i_I n_E
+files files f_B 'aI_I l_I z_E
 find find f_B 'aI_I n_I d_E
+first first f_B '3_I s_I t_E
 follow follow f_B 'A_I l_I o_I U_E
+font font f_B 'A_I n_I t_E
+food food f_B 'u_I d_E
 for for f_B 'O_I r_E
+fork fork f_B 'O_I r_I k_E
+formed formed f_B 'O_I r_I m_I d_E
 francis francis f_B r_I '{_I n_I s_I V_I s_E
 from from f_B r_I 'V_I m_E
 front front f_B r_I 'V_I n_I t_E
+fruits fruits f_B r_I 'u_I ts_E
 garbage garbage g_B 'A_I r_I b_I I_I dZ_E
 gender gender dZ_B 'E_I n_I d_I 3_E
 get get g_B 'E_I t_E
 girls girls g_B '3_I l_I z_E
 give give g_B 'I_I v_E
+glace glace g_B l_I 'e_I I_I s_E
 go go g_B 'o_I U_E
+gold gold g_B 'o_I U_I l_I d_E
+grape grape g_B r_I 'e_I I_I p_E
 grasp grasp g_B r_I '{_I s_I p_E
 greet greet g_B r_I 'i_I t_E
 guests guests g_B 'E_I s_I ts_E
 guide guide g_B 'aI_I d_E
+handsome handsome h_B '{_I n_I s_I V_I m_E
+hard hard h_B 'A_I r_I d_E
+he he h_B 'i_E
 heaviest heaviest h_B 'E_I v_I i_I V_I s_I t_E
+her her h_B '3_E
+hers hers h_B 3_I z_E
+him him h_B 'I_I m_E
+his his h_B 'I_I z_E
+holds holds h_B 'o_I U_I l_I d_I z_E
+hotel hotel h_B o_I U_I t_I 'E_I l_E
 how how h_B 'aU_E
+humanity humanity h_B j_I u_I m_I '{_I n_I I_I t_I i_E
+hundred hundred h_B 'V_I n_I d_I r_I V_I d_E
+i i 'aI_S
+ice ice 'aI_B s_E
+impact impact I_B m_I p_I '{_I k_I t_E
 in in I_B n_E
 introduce introduce I_B n_I t_I r_I V_I d_I 'u_I s_E
+invaded invaded I_B n_I v_I 'e_I I_I d_I V_I d_E
+invented invented I_B n_I v_I 'E_I n_I t_I V_I d_E
+inventor inventor I_B n_I v_I 'E_I n_I t_I 3_E
 is is 'I_B z_E
 it it 'I_B t_E
+its its 'I_B ts_E
 james james dZ_B 'e_I I_I m_I z_E
+jedi jedi dZ_B 'E_I d_I i_E
 jennifer jennifer dZ_B 'E_I n_I V_I f_I 3_E
 john john dZ_B 'A_I n_E
 joke joke dZ_B 'o_I U_I k_E
+juice juice dZ_B 'u_I s_E
 junk junk dZ_B 'V_I N_I k_E
-kobject kobject k_B V_I b_I dZ_I 'E_I k_I t_E
+kitchen kitchen k_B 'I_I tS_I V_I n_E
+knife knife n_B 'aI_I f_E
+knight knight n_B 'aI_I t_E
+knowledge knowledge n_B 'A_I l_I V_I dZ_E
+language language l_B '{_I N_I g_I w_I V_I dZ_E
 largest largest l_B 'A_I r_I dZ_I V_I s_I t_E
+launched launched l_B 'O_I n_I tS_I t_E
 lead lead l_B 'E_I d_E
 leave leave l_B 'i_I v_E
 left left l_B 'E_I f_I t_E
 lightest lightest l_B 'aI_I t_I V_I s_I t_E
 linda linda l_B 'I_I n_I d_I V_E
 litter litter l_B 'I_I t_I 3_E
+living living l_B 'I_I v_I I_I N_E
 locate locate l_B 'o_I U_I k_I e_I I_I t_E
+located located l_B 'o_I U_I k_I e_I I_I t_I V_I d_E
+london london l_B 'V_I n_I d_I V_I n_E
+long long l_B 'O_I N_E
+longest longest l_B 'O_I N_I g_I V_I s_I t_E
 look look l_B 'U_I k_E
 lying lying l_B 'aI_I I_I N_E
 main main m_B 'e_I I_I n_E
 male male m_B 'e_I I_I l_E
 many many m_B 'E_I n_I i_E
+mark mark m_B 'A_I r_I k_E
+mars mars m_B 'A_I r_I z_E
 mary mary m_B 'E_I r_I i_E
 may may m_B 'e_I I_E
 me me m_B 'i_E
+mechanical mechanical m_B V_I k_I '{_I n_I I_I k_I V_I l_E
+medals medals m_B 'E_I d_I V_I l_I z_E
 meet meet m_B 'i_I t_E
 men men m_B 'E_I n_E
 michael michael m_B 'aI_I k_I V_I l_E
+microcomputer microcomputer m_B 'aI_I k_I r_I o_I U_I k_I V_I m_I p_I j_I 'u_I t_I 3_E
+mine mine m_B 'aI_I n_E
 month month m_B 'V_I n_I T_E
+montreal montreal m_B V_I n_I t_I r_I i_I 'O_I l_E
+moravec's moravec's m_B 3_I 'A_I v_I I_I k_I s_E
 most most m_B 'o_I U_I s_I t_E
+motion motion m_B 'o_I U_I S_I V_I n_E
+mounted mounted m_B 'aU_I n_I t_I V_I d_E
+musk musk m_B 'V_I s_I k_E
 my my m_B 'aI_E
 name name n_B 'e_I I_I m_E
+named named n_B 'e_I I_I m_I d_E
+nanobot nanobot n_B '{_I n_I o_I U_I b_I V_I t_E
 navigate navigate n_B '{_I v_I V_I g_I e_I I_I t_E
 neaten neaten n_B 'i_I t_I V_I n_E
-nme nme n_B m_E
+nine nine n_B 'aI_I n_E
+nominated nominated n_B 'A_I m_I V_I n_I e_I I_I t_I V_I d_E
+noodles noodles n_B 'u_I d_I V_I l_I z_E
 object object 'A_B b_I dZ_I E_I k_I t_E
 objects objects 'A_B b_I dZ_I E_I k_I ts_E
 of of 'V_B v_E
+olympics olympics o_B U_I l_I 'I_I m_I p_I I_I k_I s_E
 on on 'A_B n_E
+one one w_B 'V_I n_E
+only only 'o_B U_I n_I l_I i_E
+ontario ontario A_B n_I t_I 'E_I r_I i_I o_I U_E
+open open 'o_B U_I p_I V_I n_E
+orange orange 'O_B r_I V_I n_I dZ_E
 order order 'O_B r_I d_I 3_E
+origin origin 'O_B r_I V_I dZ_I V_I n_E
+our our 'aU_B 3_E
+ours ours 'aU_B 3_I z_E
 out out 'aU_B t_E
+paprika paprika p_B {_I p_I r_I 'i_I k_I V_E
+paradox paradox p_B 'E_I r_I V_I d_I A_I k_I s_E
+pass pass p_B '{_I s_E
 patricia patricia p_B V_I t_I r_I 'I_I S_I V_E
+pdf pdf p_B i_I d_I i_I 'E_I f_E
 people people p_B 'i_I p_I V_I l_E
 person person p_B '3_I s_I V_I n_E
 pick pick p_B 'I_I k_E
+picture picture p_B 'I_I k_I tS_I 3_E
 place place p_B l_I 'e_I I_I s_E
-placement placement p_B l_I 'e_I I_I s_I m_I V_I n_I t_E
+pod pod p_B 'A_I d_E
 pointing pointing p_B 'OI_I n_I t_I I_I N_E
+police police p_B V_I l_I 'i_I s_E
 pose pose p_B 'o_I U_I z_E
-pron pron p_B r_I V_I n_E
+potato potato p_B V_I t_I 'e_I I_I t_I o_I U_E
+pringles pringles p_B r_I 'I_I N_I g_I V_I l_I z_E
+program program p_B r_I 'o_I U_I g_I r_I {_I m_E
+programmer programmer p_B r_I 'o_I U_I g_I r_I {_I m_I 3_E
+programming programming p_B r_I 'o_I U_I g_I r_I {_I m_I I_I N_E
 provide provide p_B r_I V_I v_I 'aI_I d_E
 put put p_B 'U_I t_E
-question question k_B w_I 'E_I s_I tS_I V_I n_E
+python python p_B 'aI_I T_I A_I n_E
 raising raising r_B 'e_I I_I z_I I_I N_E
+rcmp rcmp A_B r_I s_I i_I 'E_I m_I p_I 'i_E
 rear rear r_B 'I_I r_E
+record record r_B V_I k_I 'O_I r_I d_E
+required required r_B i_I k_I w_I 'aI_I 3_I d_E
 right right r_B 'aI_I t_E
 robert robert r_B 'A_I b_I 3_I t_E
 robin robin r_B 'A_I b_I V_I n_E
+robot robot r_B 'o_I U_I b_I A_I t_E
+robots robots r_B 'o_I U_I b_I A_I ts_E
 room room r_B 'u_I m_E
+royal royal r_B 'OI_I V_I l_E
+safe safe s_B 'e_I I_I f_E
+sans sans s_B '{_I n_I z_E
+sausages sausages s_B 'O_I s_I I_I dZ_I I_I z_E
 say say s_B 'e_I I_E
+scrubby scrubby s_B k_I r_I 'V_I b_I i_E
+second second s_B 'E_I k_I V_I n_I d_E
+self-driving self-driving s_B 'E_I l_I f_I d_I r_I 'aI_I v_I I_I N_E
 serve serve s_B '3_I v_E
+she she S_B 'i_E
+side side s_B 'aI_I d_E
+sink sink s_B 'I_I N_I k_E
 sitting sitting s_B 'I_I t_I I_I N_E
 skyler skyler s_B k_I 'aI_I l_I 3_E
+small small s_B m_I 'O_I l_E
 smallest smallest s_B m_I 'O_I l_I V_I s_I t_E
+smartphone smartphone s_B m_I 'A_I r_I t_I f_I o_I U_I n_E
 snacks snacks s_B n_I '{_I k_I s_E
+snow snow s_B n_I 'o_I U_E
 something something s_B 'V_I m_I T_I I_I N_E
+sponge sponge s_B p_I 'V_I n_I dZ_E
+spoon spoon s_B p_I 'u_I n_E
+sprite sprite s_B p_I r_I 'aI_I t_E
 standing standing s_B t_I '{_I n_I d_I I_I N_E
+stands stands s_B t_I '{_I n_I d_I z_E
+state state s_B t_I 'e_I I_I t_E
+storage storage s_B t_I 'O_I r_I V_I dZ_E
+street street s_B t_I r_I 'i_I t_E
+stuff stuff s_B t_I 'V_I f_E
 suitcase suitcase s_B 'u_I t_I k_I e_I I_I s_E
+summer summer s_B 'V_I m_I 3_E
+table table t_B 'e_I I_I b_I V_I l_E
+tableware tableware t_B 'e_I I_I b_I V_I l_I w_I E_I r_E
 take take t_B 'e_I I_I k_E
 taxi taxi t_B '{_I k_I s_I i_E
+teams teams t_B 'i_I m_I z_E
 tell tell t_B 'E_I l_E
+term term t_B '3_I m_E
+test test t_B 'E_I s_I t_E
 the the D_B V_E
 their their D_B 'E_I r_E
+theirs theirs D_B 'E_I r_I z_E
+them them D_B 'E_I m_E
 there there D_B 'E_I r_E
+they they D_B 'e_I I_E
+think think T_B 'I_I N_I k_E
 thinnest thinnest T_B 'I_I n_I I_I s_I t_E
+thousand thousand T_B 'aU_I z_I V_I n_I d_E
+threat threat T_B r_I 'E_I t_E
 three three T_B r_I 'i_E
 tidy tidy t_B 'aI_I d_I i_E
 time time t_B 'aI_I m_E
 to to t_B 'u_E
 today today t_B V_I d_I 'e_I I_E
 tomorrow tomorrow t_B V_I m_I 'A_I r_I o_I U_E
+tons tons t_B 'V_I n_I z_E
 top top t_B 'A_I p_E
 trash trash t_B r_I '{_I S_E
 tray tray t_B r_I 'e_I I_E
 trolley trolley t_B r_I 'A_I l_I i_E
+tron tron t_B r_I 'A_I n_E
+turing turing t_B 'U_I r_I I_I N_E
 uber uber j_B 'u_I b_I 3_E
 under under 'V_B n_I d_I 3_E
-unknown unknown V_B n_I n_I 'o_I U_I n_E
 up up 'V_B p_E
+us us 'V_B s_E
+usa usa j_B u_I E_I s_I 'e_I I_E
+use use j_B 'u_I s_E
 valise valise v_B V_I l_I 'i_I s_E
+visit visit v_B 'I_I z_I I_I t_E
+was was w_B 'A_I z_E
+wasn't wasn't w_B 'A_I z_I V_I n_I t_E
 waste waste w_B 'e_I I_I s_I t_E
 waving waving w_B 'e_I I_I v_I I_I N_E
+we we w_B 'i_E
 week week w_B 'i_I k_E
 what what w_B 'V_I t_E
-what''s what''s w_B 'V_I t_I V_I z_E
+what's what's w_B 'V_I ts_E
+whats whats w_B V_I ts_E
+when when w_B 'E_I n_E
+where where w_B 'E_I r_E
 which which w_B 'I_I tS_E
+who who h_B 'u_E
+who's who's h_B 'u_I z_E
+why why w_B 'aI_E
 will will w_B 'I_I l_E
 william william w_B 'I_I l_I j_I V_I m_E
+winter winter w_B 'I_I n_I t_I 3_E
+with with w_B 'I_I D_E
 women women w_B 'I_I m_I V_I n_E
+world world w_B '3_I l_I d_E
+world's world's w_B '3_I l_I d_I z_E
+worried worried w_B '3_I i_I d_E
+year year j_B 'I_I r_E
+yonge yonge j_B 'O_I N_E
 you you j_B 'u_E
 your your j_B 'O_I r_E
+yours yours j_B 'U_I r_I z_E
 yourself yourself j_B 3_I s_I 'E_I l_I f_E
+zones zones z_B 'o_I U_I n_I z_E
+zoo zoo z_B 'u_E
+zuckerberg zuckerberg z_B 'V_I k_I 3_I b_I 3_I g_E

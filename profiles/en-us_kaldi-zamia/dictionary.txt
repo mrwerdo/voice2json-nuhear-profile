@@ -1,172 +1,376 @@
-smallest s m 'O l V s t
-pointing p 'OI n t I N
-go g 'o U
-thinnest T 'I n I s t
-ambiguous { m b 'I g j u V s
-most m 'o U s t
-beacon b 'i k V n
-william w 'I l j V m
-something s 'V m T I N
-litter l 'I t 3
-accompany V k 'V m p V n i
-may m 'e I
+longest l 'O N g V s t
+motion m 'o U S V n
+winter w 'I n t 3
+its 'I ts
+nominated n 'A m V n e I t V d
 how h 'aU
-tomorrow t V m 'A r o U
-women w 'I m V n
-of 'V v
-clean k l 'i n
-country k 'V n t r i
-give g 'I v
-lightest l 'aI t V s t
-raising r 'e I z I N
-junk dZ 'V N k
-order 'O r d 3
-ask '{ s k
-bring b r 'I N
-arm 'A r m
-three T r 'i
-children tS 'I l d r V n
-my m 'aI
-garbage g 'A r b I dZ
-uber j 'u b 3
-say s 'e I
-deliver d I l 'I v 3
-week w 'i k
-person p '3 s V n
-any 'E n i
-day d 'e I
-biggest b 'I g V s t
-bag b '{ g
-on 'A n
-find f 'aI n d
-rear r 'I r
-take t 'e I k
-today t V d 'e I
-affiliation V f I l i 'e I S V n
-largest l 'A r dZ V s t
-robin r 'A b V n
-arrange 3 'e I n dZ
-for f 'O r
-guide g 'aI d
-female f 'i m e I l
-objects 'A b dZ E k ts
-greet g r 'i t
-james dZ 'e I m z
-which w 'I tS
-sitting s 'I t I N
-at '{ t
-jennifer dZ 'E n V f 3
-will w 'I l
-baggage b '{ g V dZ
-leave l 'i v
-tell t 'E l
-drinks d r 'I N k s
-up 'V p
-serve s '3 v
-to t 'u
-the D V
-out 'aU t
-grasp g r '{ s p
-lying l 'aI I N
-what w 'V t
-tray t r 'e I
-linda l 'I n d V
-back b '{ k
-trash t r '{ S
-door d 'O r
-introduce I n t r V d 'u s
-room r 'u m
-john dZ 'A n
-unknown V n n 'o U n
-everyone 'E v r i w V n
-main m 'e I n
-standing s t '{ n d I N
-men m 'E n
-pose p 'o U z
-are 'A r
-escort E s k 'O r t
-lead l 'E d
-all 'O l
-left l 'E f t
-joke dZ 'o U k
-waste w 'e I s t
-girls g '3 l z
-there D 'E r
-can k '{ n
-boys b 'OI z
-navigate n '{ v V g e I t
-debris d V b r 'i
-tidy t 'aI d i
-yourself j 3 s 'E l f
-cab k '{ b
-patricia p V t r 'I S V
-alex '{ l V k s
-locate l 'o U k e I t
-about V b 'aU t
-pick p 'I k
-behind b I h 'aI n d
-distribute d I s t r 'I b j u t
-suitcase s 'u t k e I s
-down d 'aU n
-valise v V l 'i s
-taxi t '{ k s i
-meet m 'i t
-their D 'E r
-front f r 'V n t
-charlie tS 'A r l i
-face f 'e I s
-trolley t r 'A l i
-place p l 'e I s
-question k w 'E s tS V n
-it 'I t
-answer '{ n s 3
-snacks s n '{ k s
-bowl b 'o U l
-placement p l 'e I s m V n t
-many m 'E n i
-name n 'e I m
-follow f 'A l o U
-francis f r '{ n s V s
-look l 'U k
-category k '{ t V g O r i
-from f r 'V m
-is 'I z
-month m 'V n T
-entrance 'E n t r V n s
-a V
-put p 'U t
-in I n
-and V n d
-male m 'e I l
-above V b 'V v
-time t 'aI m
-elizabeth I l 'I z V b V T
-right r 'aI t
-under 'V n d 3
-contact k 'A n t { k t
-you j 'u
-<unk> SPN
-your j 'O r
-mary m 'E r i
-object 'A b dZ E k t
-people p 'i p V l
-dump d 'V m p
-cloth k l 'O T
-elders 'E l d 3 z
-me m 'i
-provide p r V v 'aI d
-michael m 'aI k V l
-robert r 'A b 3 t
-gender dZ 'E n d 3
-waving w 'e I v I N
-heaviest h 'E v i V s t
-get g 'E t
+cupboard k 'V b 3 d
 guests g 'E s ts
+women w 'I m V n
+mechanical m V k '{ n I k V l
+jennifer dZ 'E n V f 3
+object 'A b dZ E k t
+fruits f r 'u ts
+one w 'V n
+term t '3 m
+handsome h '{ n s V m
+left l 'E f t
+snow s n 'o U
+all 'O l
+waving w 'e I v I N
+canada's k '{ n V d V z
+affiliation V f I l i 'e I S V n
+grasp g r '{ s p
+why w 'aI
+crackers k r '{ k 3 z
+standing s t '{ n d I N
+spoon s p 'u n
+holds h 'o U l d z
+baggage b '{ g V dZ
+him h 'I m
+canadians k V n 'e I d i V n z
+picture p 'I k tS 3
+elders 'E l d 3 z
+mark m 'A r k
+female f 'i m e I l
+second s 'E k V n d
+python p 'aI T A n
+olympics o U l 'I m p I k s
+coin k 'OI n
+programming p r 'o U g r { m I N
+cars k 'A r z
+garbage g 'A r b I dZ
+canada k '{ n V d V
+robots r 'o U b A ts
+cloth k l 'O T
+theirs D 'E r z
+litter l 'I t 3
+suitcase s 'u t k e I s
+male m 'e I l
+cleaning k l 'i n I N
+was w 'A z
+required r i k w 'aI 3 d
+entrance 'E n t r V n s
+containers k V n t 'e I n 3 z
+test t 'E s t
+which w 'I tS
+distribute d I s t r 'I b j u t
+his h 'I z
+tell t 'E l
+pod p 'A d
+girls g '3 l z
+it 'I t
+smartphone s m 'A r t f o U n
+cereal s 'I r i V l
+trash t r '{ S
+find f 'aI n d
+i 'aI
+say s 'e I
+thousand T 'aU z V n d
+beatlemania b 'i t V l V m 'e I n i V
+paradox p 'E r V d A k s
+stuff s t 'V f
+sausages s 'O s I dZ I z
+most m 'o U s t
+greet g r 'i t
+sans s '{ n z
+world's w '3 l d z
+food f 'u d
+when w 'E n
+cutlery k 'V t l 3 i
+worried w '3 i d
+pass p '{ s
+coined k 'OI n d
+engineering 'E n dZ V n 'I r I N
+on 'A n
+famous f 'e I m V s
+is 'I z
+something s 'V m T I N
+uber j 'u b 3
+invaded I n v 'e I d V d
+cup k 'V p
+an '{ n
+snacks s n '{ k s
+fifteen f I f t 'i n
+drive d r 'aI v
+rear r 'I r
+bed b 'E d
+knowledge n 'A l V dZ
+cascade k { s k 'e I d
+many m 'E n i
+meet m 'i t
+ours 'aU 3 z
+long l 'O N
+c s 'i
+pringles p r 'I N g V l z
 top t 'A p
-skyler s k 'aI l 3
+police p V l 'i s
+bug b 'V g
+bag b '{ g
+tray t r 'e I
+are 'A r
+person p '3 s V n
+zuckerberg z 'V k 3 b 3 g
+heaviest h 'E v i V s t
+three T r 'i
+record r V k 'O r d
+she S 'i
+my m 'aI
+tableware t 'e I b V l w E r
+desk d 'E s k
+patricia p V t r 'I S V
+leave l 'i v
+there D 'E r
+blackberry b l '{ k b E r i
+noodles n 'u d V l z
+kitchen k 'I tS V n
+room r 'u m
+waste w 'e I s t
+mounted m 'aU n t V d
+apple '{ p V l
+paprika p { p r 'i k V
+corridor k 'O r V d 3
+today t V d 'e I
+disk d 'I s k
+tons t 'V n z
+london l 'V n d V n
+their D 'E r
+in I n
+introduce I n t r V d 'u s
+dump d 'V m p
+mine m 'aI n
+objects 'A b dZ E k ts
+by b 'aI
+cub k 'V b
+john dZ 'A n
+zoo z 'u
+where w 'E r
+with w 'I D
+right r 'aI t
+program p r 'o U g r { m
+orange 'O r V n dZ
+you j 'u
+to t 'u
+formed f 'O r m d
+about V b 'aU t
+boys b 'OI z
+hers h 3 z
+us 'V s
+name n 'e I m
+do d 'u
+inventor I n v 'E n t 3
+time t 'aI m
+origin 'O r V dZ V n
+front f r 'V n t
+children tS 'I l d r V n
+largest l 'A r dZ V s t
+main m 'e I n
+musk m 'V s k
+end 'E n d
+locate l 'o U k e I t
+bowl b 'o U l
+our 'aU 3
+junk dZ 'V N k
+juice dZ 'u s
+smallest s m 'O l V s t
+of 'V v
+knight n 'aI t
+down d 'aU n
+storage s t 'O r V dZ
+humanity h j u m '{ n I t i
+use j 'u s
+year j 'I r
+contact k 'A n t { k t
+thinnest T 'I n I s t
+elizabeth I l 'I z V b V T
+safe s 'e I f
+will w 'I l
+linda l 'I n d V
+coke k 'o U k
+dining d 'aI n I N
+first f '3 s t
+open 'o U p V n
+gold g 'o U l d
+developed d I v 'E l V p t
+street s t r 'i t
+country k 'V n t r i
+back b '{ k
+lightest l 'aI t V s t
+counter k 'aU n t 3
+microcomputer m 'aI k r o U k V m p j 'u t 3
+files f 'aI l z
+tron t r 'A n
+medals m 'E d V l z
+glace g l 'e I s
+gender dZ 'E n d 3
+debris d V b r 'i
+stands s t '{ n d z
+called k 'O l d
+lying l 'aI I N
+pick p 'I k
+state s t 'e I t
+royal r 'OI V l
+invented I n v 'E n t V d
+bear b 'E r
+chocolate tS 'O k l V t
+day d 'e I
+everyone 'E v r i w V n
+answer '{ n s 3
+android '{ n d r OI d
+sprite s p r 'aI t
+considered k V n s 'I d 3 d
+go g 'o U
+guide g 'aI d
+bring b r 'I N
+hundred h 'V n d r V d
+exported I k s p 'O r t V d
+week w 'i k
+who h 'u
+behind b I h 'aI n d
+compiler k V m p 'aI l 3
+world w '3 l d
+elon 'E l V n
+out 'aU t
+located l 'o U k e I t V d
+her h '3
+a V
+follow f 'A l o U
+rcmp A r s i 'E m p 'i
+montreal m V n t r i 'O l
+at '{ t
+deliver d I l 'I v 3
+sitting s 'I t I N
+your j 'O r
+month m 'V n T
+side s 'aI d
+drinks d r 'I N k s
+impact I m p '{ k t
+desert d 'E z 3 t
+pdf p i d i 'E f
+sponge s p 'V n dZ
+trolley t r 'A l i
+bedroom b 'E d r u m
+alex '{ l V k s
+may m 'e I
+the D V
+chips tS 'I p s
+navigate n '{ v V g e I t
+robot r 'o U b A t
+named n 'e I m d
+does d 'V z
+provide p r V v 'aI d
+usa j u E s 'e I
+wasn't w 'A z V n t
+programmer p r 'o U g r { m 3
+taxi t '{ k s i
+give g 'I v
+nine n 'aI n
+who's h 'u z
+grape g r 'e I p
+mars m 'A r z
+put p 'U t
+order 'O r d 3
+sink s 'I N k
+whats w V ts
+think T 'I N k
+big b 'I g
+couch k 'aU tS
+exit 'E g z I t
+created k r i 'e I t V d
+tomorrow t V m 'A r o U
+charlie tS 'A r l i
+living l 'I v I N
+drink d r 'I N k
+robert r 'A b 3 t
+font f 'A n t
+door d 'O r
+knife n 'aI f
+place p l 'e I s
+<unk> SPN
+tidy t 'aI d i
+face f 'e I s
+up 'V p
+basket b '{ s k V t
+launched l 'O n tS t
+captcha k '{ p tS V
+from f r 'V m
+summer s 'V m 3
+ice 'aI s
+robin r 'A b V n
+serve s '3 v
+francis f r '{ n s V s
+small s m 'O l
+for f 'O r
+what's w 'V ts
+get g 'E t
+under 'V n d 3
+escort E s k 'O r t
+potato p V t 'e I t o U
+joke dZ 'o U k
+table t 'e I b V l
+take t 'e I k
+pose p 'o U z
+above V b 'V v
+men m 'E n
+dishwasher d 'I S w A S 3
+scrubby s k r 'V b i
+people p 'i p V l
+comic k 'A m I k
+michael m 'aI k V l
+else 'E l s
+de d 'i
+me m 'i
+dish d 'I S
+we w 'i
+computer k V m p j 'u t 3
+he h 'i
+raising r 'e I z I N
+look l 'U k
+visit v 'I z I t
+threat T r 'E t
+ontario A n t 'E r i o U
+clean k l 'i n
+yours j 'U r z
+arrange 3 'e I n dZ
+them D 'E m
+teams t 'i m z
+be b 'i
+mary m 'E r i
+they D 'e I
+language l '{ N g w V dZ
+accompany V k 'V m p V n i
+bottleneck b 'A t V l n E k
+award V w 'O r d
+yourself j 3 s 'E l f
+what w 'V t
+bookcase b 'U k k e I s
+biggest b 'I g V s t
+hotel h o U t 'E l
+turing t 'U r I N
+william w 'I l j V m
+and V n d
+arm 'A r m
+zones z 'o U n z
+lead l 'E d
+fork f 'O r k
+can k '{ n
+cab k '{ b
+hard h 'A r d
+jedi dZ 'E d i
+canadian k V n 'e I d i V n
+valise v V l 'i s
+academy V k '{ d V m i
+pointing p 'OI n t I N
+only 'o U n l i
+ask '{ s k
+james dZ 'e I m z
+ai 'aI
+build b 'I l d
+ai's 'aI z
 neaten n 'i t V n
-kobject k V b dZ 'E k t
-what''s w 'V t V z
-pron p r V n
-"team's" t 'i m z
-nme n m
+skyler s k 'aI l 3
+moravec's m 3 'A v I k s
+self-driving s 'E l f d r 'aI v I N
+yonge j 'O N
+chatbot tS '{ t b A t
+nanobot n '{ n o U b V t
