@@ -1,3 +1,12 @@
 audio/
 voice2json
 .DS_Store
+profiles/en-us_kaldi-zamia/acoustic_model/data/*
+profiles/en-us_kaldi-zamia/dictionary.txt
+profiles/en-us_kaldi-zamia/intent.pickle.gz
+profiles/en-us_kaldi-zamia/language_model.fst
+profiles/en-us_kaldi-zamia/unknown_words.txt
+profiles/en-us_kaldi-zamia/vocab.txt
+profiles/en-us_kaldi-zamia/language_model.txt
+profiles/en-us_kaldi-zamia/acoustic_model/graph/*
+profiles/en-us_kaldi-zamia/acoustic_model/online/*
