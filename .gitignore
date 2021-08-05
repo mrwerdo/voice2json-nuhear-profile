@@ -1,4 +1,3 @@
-audio/
 voice2json
 .DS_Store
 profiles/en-us_kaldi-zamia/acoustic_model/data/*
